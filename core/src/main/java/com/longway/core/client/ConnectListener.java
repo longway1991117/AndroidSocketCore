@@ -1,4 +1,4 @@
-package com.longway.core.com.client;
+package com.longway.core.client;
 
 public interface ConnectListener {
     void connectToServerFail(String reason);

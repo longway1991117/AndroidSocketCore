@@ -1,4 +1,4 @@
-package com.longway.core.com.client;
+package com.longway.core.client;
 
 import java.io.IOException;
 import java.nio.channels.SocketChannel;

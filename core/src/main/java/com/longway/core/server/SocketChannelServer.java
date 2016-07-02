@@ -1,4 +1,4 @@
-package com.longway.core.com.server;
+package com.longway.core.server;
 
 import android.util.Log;
 

@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.longway.core.R;
-import com.longway.core.com.client.ConnectListener;
-import com.longway.core.com.client.MessageHandler;
-import com.longway.core.com.client.MessageInterceptor;
-import com.longway.core.com.client.MessageReceiptHandler;
-import com.longway.core.com.client.NetworkMonitor;
-import com.longway.core.com.client.PingListener;
-import com.longway.core.com.client.ReconnectedListener;
-import com.longway.core.com.client.SocketChannelClient;
+import com.longway.core.client.ConnectListener;
+import com.longway.core.client.MessageHandler;
+import com.longway.core.client.MessageInterceptor;
+import com.longway.core.client.MessageReceiptHandler;
+import com.longway.core.client.NetworkMonitor;
+import com.longway.core.client.PingListener;
+import com.longway.core.client.ReconnectedListener;
+import com.longway.core.client.SocketChannelClient;
 
 
 /*********************************
