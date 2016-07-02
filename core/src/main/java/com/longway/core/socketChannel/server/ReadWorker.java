@@ -7,13 +7,6 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 import java.util.ArrayList;
-
-/*********************************
- * Created by longway on 16/7/1 上午6:18.
- * packageName:com.longway.multiprocess.socket.socketChannel.server
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class ReadWorker {
     private static final String TAG = ReadWorker.class.getSimpleName();
     private static final int BUFFER_SIZE = 128;

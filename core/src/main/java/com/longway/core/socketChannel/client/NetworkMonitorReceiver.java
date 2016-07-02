@@ -9,12 +9,6 @@ import android.util.Log;
 
 import java.util.LinkedList;
 
-/*********************************
- * Created by longway on 16/6/26 上午9:25.
- * packageName:com.longway.multiprocess.socket.socketChannel
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class NetworkMonitorReceiver extends BroadcastReceiver {
     private static final String TAG = NetworkMonitorReceiver.class.getSimpleName();
     private static final String REASON = "unknown";

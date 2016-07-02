@@ -8,12 +8,6 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 import java.util.LinkedList;
 
-/*********************************
- * Created by longway on 16/6/24 下午12:13.
- * packageName:com.longway.multiprocess.socket.socketChannel
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class ReadWorker implements IReadHandler {
     private static final String TAG = ReadWorker.class.getSimpleName();
     private static final int BUFFER_SIZE = 128;

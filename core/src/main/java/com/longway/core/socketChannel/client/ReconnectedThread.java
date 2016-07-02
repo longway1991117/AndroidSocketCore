@@ -4,12 +4,6 @@ import java.util.LinkedList;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/*********************************
- * Created by longway on 16/6/26 上午9:28.
- * packageName:com.longway.multiprocess.socket.socketChannel
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class ReconnectedThread implements Runnable {
     private static final String TAG = ReconnectedThread.class.getSimpleName();
     private static final int BASE_TIME = new Random(11).nextInt() + 5;

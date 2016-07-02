@@ -6,12 +6,6 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 
 
-/*********************************
- * Created by longway on 16/6/23 下午1:56.
- * packageName:com.longway.multiprocess.socket.socketChannel
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class SocketService extends Service {
     private SocketChannelServer mServer;
 

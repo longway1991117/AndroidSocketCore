@@ -15,13 +15,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-/*********************************
- * Created by longway on 16/6/23 下午1:55.
- * packageName:com.longway.multiprocess.socket.socketChannel
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class SocketChannelClient implements Runnable, NetworkMonitor {
     private static final String TAG = SocketChannelClient.class.getSimpleName();
     private String mHost;

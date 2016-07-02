@@ -12,12 +12,6 @@ import java.nio.ByteBuffer;
 import java.util.LinkedList;
 import java.util.concurrent.LinkedBlockingQueue;
 
-/*********************************
- * Created by longway on 16/6/23 下午2:15.
- * packageName:com.longway.multiprocess.socket.socketChannel
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class WriteWorker extends HandlerThread {
     private static final String TAG = WriteWorker.class.getSimpleName();
     private static final int MESSAGE_TYPE_STRING = 0x01;

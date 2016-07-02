@@ -6,13 +6,6 @@ import java.util.Enumeration;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-
-/*********************************
- * Created by longway on 16/6/30 下午10:33.
- * packageName:com.longway.multiprocess.socket.socketChannel.server
- * projectName:demo
- * Email:longway1991117@sina.com
- ********************************/
 public class SessionManager {
     private static volatile SessionManager sInstance;
     private ConcurrentHashMap<String, SocketChannel> mSession = new ConcurrentHashMap<>();
