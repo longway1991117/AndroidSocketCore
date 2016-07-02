@@ -1,4 +1,4 @@
-package com.longway.core.socketChannel.server;
+package com.longway.core.core.server;
 
 import android.app.Service;
 import android.content.Intent;

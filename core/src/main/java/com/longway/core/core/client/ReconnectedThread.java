@@ -1,4 +1,4 @@
-package com.longway.core.socketChannel.client;
+package com.longway.core.core.client;
 
 import java.util.LinkedList;
 import java.util.Random;

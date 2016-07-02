@@ -1,4 +1,4 @@
-package com.longway.core.socketChannel.server;
+package com.longway.core.core.server;
 
 import java.nio.channels.SocketChannel;
 import java.util.ArrayList;
